@@ -29,7 +29,7 @@ Execute as : java -cp nearby-0.0.1-SNAPSHOT.jar com.group.app.Application
 ## ***Note: All endpoints would be supporting GET only and are configuered to use FourSquare API's.
 
 (1)
-http://localhost:8080/searchlocation?ll=<VALUE>
+http://localhost:8080/searchlocation?ll=<<VALUE>>
 ----
 
 It will respond with JSON representation of a venue (latitude and longitude provided)
@@ -37,7 +37,7 @@ eg:http://localhost:8080/searchlocation?ll==40.7337621,-74.0095604
 
 
 (2)
-#### http://localhost:8080/filterbycategory?category=<VALUE>&ll=<VALUE>
+http://localhost:8080/filterbycategory?ll=<<VALUE>>&category=<VALUE>>
 ----
 It will respond back with list of venue matching given location(latitude and longitude) and category.
 
