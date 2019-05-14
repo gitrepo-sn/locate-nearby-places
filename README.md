@@ -3,22 +3,30 @@
 ### Reference Documentation
 For further reference, please consider the following sections:
 
-== Package === 
+###== Package === 
+
 :java_version:1.8
+
 :spring_version: 5.1.6.RELEASE
+
 :spring_boot_version: 2.1.4.RELEASE
+
 :foursquare_version:1.0.6
 
-== Maven Output ===
+###== Maven Output ===
+
 $> mvn clean install
+
+
 nearby-0.0.1-SNAPSHOT.jar would be created under /target and <PATH>\.m2\repository\com\group\app\nearby\0.0.1-SNAPSHOT
+
 
 Execute as : java -cp nearby-0.0.1-SNAPSHOT.jar com.group.app.Application
 
 
-== List of REST EndPoints
+###== List of REST EndPoints
 
-***Note: All endpoints would be supporting GET only and are configuered to use FourSquare API's.
+##***Note: All endpoints would be supporting GET only and are configuered to use FourSquare API's.
 
 (1)
 http://localhost:8080/searchlocation?ll=<VALUE>
@@ -46,5 +54,6 @@ All successful request would be responded with STATUS CODE=200 (OK). Any error d
 For all application exception , STATUS CODE would be 404(NOT FOUND)  
 
 
-==== JUNIT Test Case =====
+###==== JUNIT Test Case =====
+
 Run com.group.app.ApplicationTest as JUnit program.
