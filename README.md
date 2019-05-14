@@ -28,6 +28,7 @@ Execute as : java -cp nearby-0.0.1-SNAPSHOT.jar com.group.app.Application
 
 ## ***Note: All endpoints would be supporting GET only and are configured to use FourSquare API's.
 
+
 (1)
 http://localhost:8080/searchlocation?ll=<<VALUE>>
 ----
