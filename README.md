@@ -3,11 +3,17 @@
 ### Reference Documentation
 For further reference, please consider the following sections:
 
+== Package === 
 :java_version:1.8
 :spring_version: 5.1.6.RELEASE
-:project_id: nearby
 :spring_boot_version: 2.1.4.RELEASE
 :foursquare_version:1.0.6
+
+== Maven Output ===
+$> mvn clean install
+nearby-0.0.1-SNAPSHOT.jar would be created under /target and <PATH>\.m2\repository\com\group\app\nearby\0.0.1-SNAPSHOT
+
+Execute as : java -cp nearby-0.0.1-SNAPSHOT.jar com.group.app.Application
 
 
 == List of REST EndPoints
