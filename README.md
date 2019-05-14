@@ -37,14 +37,14 @@ eg:http://localhost:8080/searchlocation?ll==40.7337621,-74.0095604
 
 
 (2)
-http://localhost:8080/filterbycategory?ll=<VALUE>&category=<VALUE>
+#### http://localhost:8080/filterbycategory?category=<VALUE>&ll=<VALUE>
 ----
 It will respond back with list of venue matching given location(latitude and longitude) and category.
 
 eg: http://localhost:8080/filterbycategory?ll=40.7337621,-74.0095604&category=mobile
 
 (3)
-http://localhost:8080/filterbycategory?name=<LOCATION>&category=<VALUE>
+http://localhost:8080/filterbycategory?name=<<LOCATION>>&category=<<VALUE>>
 ----
 It will respond back with list of venue matching given location name and category.
 
